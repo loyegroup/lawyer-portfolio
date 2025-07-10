@@ -25,15 +25,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-[var(--background)] border-t border-[var(--border)] text-[var(--muted-foreground)] py-10 px-6">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-4 gap-10 items-start" data-aos="fade-up">
-        {/* Created by */}
-        <div className="space-y-3">
-          <h3 className="text-lg font-semibold text-[var(--foreground)]">LawerPro</h3>
-          <p className="text-sm">
-            Created by <span className="text-[var(--primary)] font-medium">LoyeGroup</span>
-          </p>
-        </div>
-
+      <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-10 items-start" data-aos="fade-up">
         {/* Quick Links */}
         <div className="space-y-2">
           <h4 className="text-sm font-semibold text-[var(--foreground)]">Quick Links</h4>
@@ -72,11 +64,6 @@ export default function Footer() {
             </a>
           </div>
         </div>
-      </div>
-
-      {/* Bottom Bar */}
-      <div className="mt-10 text-center text-xs text-[var(--muted-foreground)]">
-        &copy; {new Date().getFullYear()} LoyeLaw. All rights reserved.
       </div>
     </footer>
   );

@@ -14,11 +14,11 @@ export default function Hero() {
     <section
       className="relative bg-cover bg-center bg-no-repeat min-h-[90vh] flex items-center justify-center"
       style={{
-        backgroundImage: "url('/images/lawyer-hero.jpg')", // Ensure this image exists in public/images/
+        backgroundImage: "url('/lawyer-hero.jpg')", 
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/50 z-0" />
+      <div className="absolute inset-0 bg-black/20 z-0" />
 
       {/* Content */}
       <div
@@ -32,7 +32,7 @@ export default function Hero() {
           </span>
         </h1>
 
-        <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto text-[var(--muted-foreground)]">
+        <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto text-[var(--background)]">
           I’m John Doe, a dedicated legal professional with over 10 years of
           experience in civil litigation, family law, and corporate matters.
           Let me help you navigate your legal challenges with confidence and
